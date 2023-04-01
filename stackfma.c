@@ -107,7 +107,6 @@ int main()
             printf("Invalid Option\n\n");
         }
     }
-    free(stack);
-    free(stack->array);
+    
     return 0;
 }

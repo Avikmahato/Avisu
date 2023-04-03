@@ -106,6 +106,8 @@ int main()
             break;
 
         case 5:
+            free(stack);
+            free(stack-array);
             exit(0);
 
         default:

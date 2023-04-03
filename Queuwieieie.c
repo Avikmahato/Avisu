@@ -59,7 +59,6 @@ void display (struct st* stack)
         printf("The Elements Are:\n");
         for(i=stack->front; i<=stack->back; i++)
         {
-            printf(" __");
             printf("\n|%d|\n",stack->array[i]);
         }
     }
